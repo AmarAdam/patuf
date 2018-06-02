@@ -78,8 +78,7 @@ $db['default'] = array(
 	'hostname' => 'ec2-54-75-244-248.eu-west-1.compute.amazonaws.com
 ',
 	'username' => 'uexasvdptnehcb',
-	'password' => '3b370dee08d8957305180c2d7b51a538bcc55c7583d82dcec36501aebd2e14fb
-',
+	'password' => '3b370dee08d8957305180c2d7b51a538bcc55c7583d82dcec36501aebd2e14fb',
 	'database' => 'd86dvnudq7f17v',
 	'dbdriver' => 'postgre',
 	'dbprefix' => '',
