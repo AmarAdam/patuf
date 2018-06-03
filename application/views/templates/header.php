@@ -9,6 +9,15 @@
     <meta name="author" content="">
 
     <title class="text-align-center">PATUF</title>
+	
+	<p>
+    <label for="patuf">
+P-A-T-U-F ! Prêt à taper un foot !</label><br/>
+
+    <audio
+        id="patuf"
+        controls 
+        src="<?php echo site_url().'audio/patufaudio.mp3';?>">
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url().'/assets/vendor/bootstrap/css/bootstrap.min.css';?>" rel="stylesheet">
