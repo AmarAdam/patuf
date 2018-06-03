@@ -1,11 +1,11 @@
-             <div class="container">
-              <div class="content mt-3">
+   <div class="container">
+    <div class="content mt-3">
                 <div class="animated fadeIn">
                   <div>
                   <div class="row">
-                      <div class="col-md-7 col-md-offset-3">
+                      <div class="col-md-12">
                           <div class="box">
-                              <strong>Liste des Users</strong>
+                              <strong>Liste des Terrains</strong>
                           
                             <table class="table table-striped">
                             <thead>
@@ -13,8 +13,9 @@
                                     <th scope="col">Nom du terrain</th>
                                     <th scope="col">idTerrain</th>
                                     <th scope="col">Adresse du terrain</th>
-                                    </tr>
-                            </thead>
+                                </tr>
+                             </thead>
+
                           <tbody>
                                 <tr>
                                   <?php foreach ($field as $item) { ?>
@@ -30,5 +31,7 @@
                           </div>
                         </div>
                       </div>
+  
 
-                    
+                        <br></br>
+                      <br></br>
