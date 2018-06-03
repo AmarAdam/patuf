@@ -52,7 +52,7 @@
                             <br></br>
 
                               <div class="form-group">
-                                <label class="control-label">Entrez ici l'identifiant du joueur à supprimer :</label>
+                                <label class="control-label">Entrez ici l'identifiant de l'équipe à supprimer :</label>
                                   <input type="number" class="form-control" name="idteam" value="<?php echo set_value('idteam'); ?>" size="30" required/> </div>
                               <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value="Supression" size="5" /></div>
                             </form>
