@@ -48,7 +48,7 @@
                             <form class="form-inline"  method="post">
                             
                             <div class="text-center">                    
-                            <h2 class="page-header" class="text-center">Suppression des Joueurs :</h2></div></div>
+                            <h2 class="page-header" class="text-center">Suppression d'Equipe :</h2></div></div>
                             <br></br>
 
                               <div class="form-group">
@@ -72,7 +72,7 @@
                           <?php echo form_open('TeamCtrl/modifteam'); ?>
 
                             <form class="form-inline"  method="post">
-                                            <div class="text-center"><h2 class="page-header">Modification des Joueurs :</h2></div>
+                                            <div class="text-center"><h2 class="page-header">Modification d'Equipe :</h2></div>
 
                               <div class="form-group">
                                 <label class="control-label">Id de l'Equipe à modifier :</label>
