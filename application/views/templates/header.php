@@ -34,31 +34,31 @@
                     <a href="<?php echo base_url()?>/">Accueil</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/usersctrl/listuser">Liste des Joueurs</a>
+                    <a href="<?php echo base_url()?>/UsersCtrl/listuser">Liste des Joueurs</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/usersctrl/adduser">Ajouter un Joueur</a>
+                    <a href="<?php echo base_url()?>/UsersCtrl/adduser">Ajouter un Joueur</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/teamctrl/listteam">Liste des Equipes</a>
+                    <a href="<?php echo base_url()?>/TeamCtrl/listteam">Liste des Equipes</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/teamctrl/addteam">Ajouter une Equipe</a>
+                    <a href="<?php echo base_url()?>/TeamCtrl/addteam">Ajouter une Equipe</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/fieldctrl/listfield">Liste des Terrains</a>
+                    <a href="<?php echo base_url()?>/FieldCtrl/listfield">Liste des Terrains</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/typectrl/listtype">Liste des Types d'Equipe</a>
+                    <a href="<?php echo base_url()?>/TypeCtrl/listtype">Liste des Types d'Equipe</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/matchctrl/listmatch">Liste des Matchs</a>
+                    <a href="<?php echo base_url()?>/MatchCtrl/listmatch">Liste des Matchs</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/matchctrl/addmatch">Créer un Match</a>
+                    <a href="<?php echo base_url()?>/MatchCtrl/addmatch">Créer un Match</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/connexionctrl/addadmin">Ajouter un Admin</a>
+                    <a href="<?php echo base_url()?>/ConnexionCtrl/addadmin">Ajouter un Admin</a>
                 </li>
                 <li>
                     <a href="#">Contact</a>
