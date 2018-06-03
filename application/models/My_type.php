@@ -18,10 +18,11 @@
                     	->result();
         }
 
+        
+
         public function insert($data) {
             $this->load->database();
-            $this->db->set('nomtype', $data['nomtype'])
-            ->set('id_type_team', $data['id_type_team'])
+            $this->db->set('nomtype', $data)
             ->insert($this->table);
         }
 
