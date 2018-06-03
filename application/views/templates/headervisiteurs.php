@@ -31,26 +31,26 @@ s<!DOCTYPE html>
                     </a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/">Accueil</a>
+                    <a href="<?php echo site_url()?>/">Accueil</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/visiteursctrl/listuser">Liste des Joueurs</a>
+                    <a href="<?php echo site_url()?>/visiteursctrl/listuser">Liste des Joueurs</a>
                 </li>
                 
                 <li>
-                    <a href="<?php echo base_url()?>/visiteursctrl/listteam">Liste des Equipes</a>
+                    <a href="<?php echo site_url()?>/visiteursctrl/listteam">Liste des Equipes</a>
                 </li>
             
                 <li>
-                    <a href="<?php echo base_url()?>/visiteursctrl/listfield">Liste des Terrains</a>
+                    <a href="<?php echo site_url()?>/visiteursctrl/listfield">Liste des Terrains</a>
                 </li>
                 
                 <li>
-                    <a href="<?php echo base_url()?>/visiteursctrl/listtype">Liste des Types d'Equipe</a>
+                    <a href="<?php echo site_url()?>/visiteursctrl/listtype">Liste des Types d'Equipe</a>
                 </li>
                 
                 <li>
-                    <a href="<?php echo base_url()?>/visiteursctrl/listmatch">Liste des Matchs</a>
+                    <a href="<?php echo site_url()?>/visiteursctrl/listmatch">Liste des Matchs</a>
                 </li>
                
                 
