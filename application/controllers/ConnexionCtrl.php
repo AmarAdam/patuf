@@ -41,7 +41,7 @@
         }
         
         else{
-            $this->load->view('pages/pageconnexion');
+            $this->load->view('pages/PageConnexion');
         }
     }
 		
