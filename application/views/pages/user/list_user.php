@@ -1,4 +1,4 @@
-           <div class="container">
+                      <div class="container">
             <div class="content mt-3">
                 <div class="animated fadeIn">
 
@@ -33,33 +33,25 @@
                           </div>
                         </div>
 
-                        <p> Voulez vous supprimer un joueur ?</p>
+                        <br></br>
+                      <br></br>
 
                           <?php echo form_open('UsersCtrl/deleteUser'); ?>
 
                             <form class="form-inline"  method="post">
-                            
-                            <div class="text-center">                    
-                            <h2 class="page-header" class="text-center">Suppression des Joueurs :</h2></div></div>
-                            <br></br>
+                             <div class="text-center"><h2 class="page-header">Supression des Joueurs :</h2></div>
 
                               <div class="form-group">
-                                <label class="control-label">Entrez ici l'identifiant du joueur à supprimer :</label>
-                                  <input type="number" class="form-control" name="idteam" value="<?php echo set_value('idteam'); ?>" size="30" required/> </div>
-                              <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value="Supression" size="5" /></div>
+                                <label class="control-label">Id</label>
+                                  <input type="number" class="form-control" name="iduser" value="<?php echo set_value('iduser'); ?>" size="30" required/> </div>
+                              <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value="Supression" size="15" /></div>
                             </form>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-
-                    <br></br>
-
-                    <br></br>
+                      </div> 
 
 
-
-                      <p> Voulez vous modifier un joueur ?</p>
+                      <br></br>
+                      <br></br>
 
                           <?php echo form_open('UsersCtrl/modifuser'); ?>
 
@@ -75,9 +67,6 @@
                                       <h6 style="color:red;"</h6>
                                   </div>
                                     
-			                    		<br></br> <br></br>
-      
-			      
                               <div class="form-group">
                                   <label class="control-label">Email</label>
                                   <input type="text" class="form-control" name="emailuser" value="<?php echo set_value('emailuser'); ?>" size="30" required/>
@@ -96,22 +85,16 @@
                               
                               <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Modification " /></div>
                               <div class="text-center">
-
-                    		<br></br> <br></br>
-
-                                 <h1 style="color:darkslategrey; " >Modifiez ici, les Joueurs inscris sur le Site PATUF ! </h1>
+                                  
+                                  <br></br>
+                                  <br></br>
+                                  
+                                  <h1 style="color:darkslategrey; " >Modifiez ici, les Joueurs inscris sur le Site PATUF ! </h1>
                               </div>
                             </form>
                         </div>
                       </div> 
 
-
-                    
-                    
-                    
-
-                        
-
-
-
+                      <br></br>
+                      <br></br>
 
