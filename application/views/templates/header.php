@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>PATUF</title>
+    <title class="text-align-center">PATUF</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url().'/assets/vendor/bootstrap/css/bootstrap.min.css';?>" rel="stylesheet">
@@ -26,9 +26,7 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">
-                        Start Bootstrap
-                    </a>
+                   
                 </li>
                 <li>
                     <a href="<?php echo base_url()?>/">Accueil</a>
@@ -49,7 +47,13 @@
                     <a href="<?php echo base_url()?>/FieldCtrl/listfield">Liste des Terrains</a>
                 </li>
                 <li>
+                    <a href="<?php echo base_url()?>/FieldCtrl/addfield">Ajouter un Terrain</a>
+                </li>
+                <li>
                     <a href="<?php echo base_url()?>/TypeCtrl/listtype">Liste des Types d'Equipe</a>
+                </li>
+                <li>
+                    <a href="<?php echo base_url()?>/TypeCtrl/addtype">Ajouter un Type d'Equipe</a>
                 </li>
                 <li>
                     <a href="<?php echo base_url()?>/MatchCtrl/listmatch">Liste des Matchs</a>
@@ -70,7 +74,7 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
-                <h1>PATUF !</h1>
+                <h1 class="text-align-center">PATUF !</h1>
                 <p>Bienvenue sur le site web Prêt à Taper un Foot !</p>
                 <p><code></code></p>
                 <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Menu</a>
