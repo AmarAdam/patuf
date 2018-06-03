@@ -21,7 +21,6 @@
         public function insert($data) {
             $this->load->database();
             $this->db->set('namefield', $data['namefield'])
-            ->set('idfield', $data['idfield'])
             ->set('adressefield', $data['adressefield'])
             ->insert($this->table);
         }
