@@ -34,6 +34,7 @@ s<!DOCTYPE html>
                     <a href="<?php echo site_url()?>/">Accueil</a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="<?php echo site_url()?>/visiteursctrl/listuser">Liste des Joueurs</a>
                 </li>
                 
@@ -51,6 +52,25 @@ s<!DOCTYPE html>
                 
                 <li>
                     <a href="<?php echo site_url()?>/visiteursctrl/listmatch">Liste des Matchs</a>
+=======
+                    <a href="<?php echo site_url()?>/VisiteursCtrl/listuser">Liste des Joueurs</a>
+                </li>
+                
+                <li>
+                    <a href="<?php echo site_url()?>/VisiteursCtrl/listteam">Liste des Equipes</a>
+                </li>
+            
+                <li>
+                    <a href="<?php echo site_url()?>/VisiteursCtrl/listfield">Liste des Terrains</a>
+                </li>
+                
+                <li>
+                    <a href="<?php echo site_url()?>/VisiteursCtrl/listtype">Liste des Types d'Equipe</a>
+                </li>
+                
+                <li>
+                    <a href="<?php echo site_url()?>/VisiteursCtrl/listmatch">Liste des Matchs</a>
+>>>>>>> 09722471703f563c9f7030927e7324603e02c9d5
                 </li>
                
                 
