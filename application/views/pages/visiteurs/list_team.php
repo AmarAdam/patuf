@@ -1,15 +1,16 @@
-      <div class="container" class="col-xs-8 col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-6">  
-        <div class="content mt-3">
+     <div class="container">  
+            <div class="container">
+            <div class="content mt-3">
                 <div class="animated fadeIn">
-                  <div>
+
                   <div class="row">
-                      <div>
-                          <div class="box" >
-                              <strong>Liste des Users</strong>
+                      <div class="col-md-12">
+                          <div class="box">
+                              <strong>Liste des Equipes</strong>
                           
                             <table class="table table-striped">
                             <thead>
-                                <tr>
+                                 <tr>
                                     <th scope="col">Nom de l'équipe</th>
                                     <th scope="col">idTeam</th>
                                     <th scope="col">Nombre de joueurs</th>
@@ -32,13 +33,15 @@
                               </table>
                             </div>
                           </div>
-                          </div>
                         </div>
-
-                  
-
-                        </div>
-                      </div> 
-                    </h6>
+                      </div>
+                    </div>
                   </div>
-                </div>
+
+                    <br></br>
+                    <br></br>
+                    <br></br>
+
+         
+
+                       
