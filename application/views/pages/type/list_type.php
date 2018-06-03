@@ -3,7 +3,7 @@
                 <div class="animated fadeIn">
                   <div>
                   <div class="row">
-                      <div class="col-md-7 col-md-offset-3">
+                      <div class="col-md-12">
                           <div class="box">
                               <strong>Liste des Types d'Equipe</strong>
                           
@@ -28,3 +28,7 @@
                           </div>
                         </div>
                       </div>
+  
+
+                        <br></br>
+                      <br></br>
