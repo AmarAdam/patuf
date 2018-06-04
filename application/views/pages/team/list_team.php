@@ -95,7 +95,7 @@
                                   <input type="text" class="form-control" name="id_type_team" value="<?php echo set_value('id_type_team'); ?>" size="30" required/> 
                               </div>
                               
-                              <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Inscription " /></div>
+                              <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Modificaton " /></div>
                               <div class="text-center">
                                   <br></br>
                                   <br></br>
