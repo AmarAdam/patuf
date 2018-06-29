@@ -53,11 +53,7 @@
 				<li>
                     <a href="<?php echo base_url()?>/ContactCtrl/contact">Contact</a>
                 </li>
-               
-                
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+              
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
