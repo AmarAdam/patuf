@@ -27,18 +27,21 @@
                         <h1 style="color:darkslategrey; " > Ajoutez ici, les Admins du Site PATUF ! </h1>
                     </div>
                 </form>
-                    
-                <br></br>
-                <br></br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-                <?php echo form_open('ConnexionCtrl/deleteAdmin'); ?>
+<br></br>
 
+<?php echo form_open('ConnexionCtrl/deleteAdmin'); ?>
 
-               <div class="container">
-                <div id="page-login" class="row">
-                <div class="col-xs-8 col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-6">
-                    <div class="box">
-                    <div class="box-content">
+<div class="container">
+    <div id="page-login" class="row">
+        <div class="col-xs-8 col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-6">
+            <div class="box">
+                <div class="box-content">
                    <form>
                     <div class="text-center">
                         <h2 class="page-header">Supression</h2>
@@ -48,18 +51,15 @@
                         <label class="control-label">Pseudo de l'Admin</label>
                         <input type="text" class="form-control" name="pseudoadmin" value="<?php echo set_value('pseudoadmin'); ?>" size="30" required/> 
                             <h6 style="color:red;"</h6>
-                    </div>
+					</div>
                     
-                    <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Supression" /></div>
+                    <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Supression " /></div>
                     <div class="text-center">
                         <br>
-                        <h1 style="color:darkslategrey; " >  </h1>
                     </div>
                 </form>
-
                 </div>
             </div>
         </div>
     </div>
 </div>
-</form>
