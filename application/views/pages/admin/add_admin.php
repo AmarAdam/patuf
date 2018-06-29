@@ -24,7 +24,6 @@
                     <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Inscription " /></div>
                     <div class="text-center">
                         <br>
-                        <h1 style="color:darkslategrey; " > Ajoutez ici, les Admins du Site PATUF ! </h1>
                     </div>
                 </form>
                 </div>
