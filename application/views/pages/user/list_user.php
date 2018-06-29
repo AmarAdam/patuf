@@ -6,7 +6,7 @@
                       <div class="col-md-12">
                           <div class="box">
                               <strong>Liste des Users</strong>
-                          
+                          	<div class="table-responsive">
                             <table class="table table-striped">
                             <thead>
                                 <tr>
@@ -32,7 +32,7 @@
                             </div>
                           </div>
                         </div>
-
+											</div>
                         <br></br>
                       <br></br>
 
