@@ -112,6 +112,22 @@ class UsersCtrl extends CI_Controller {
 			$this->load->view('pages/PageConnexion');
 			}
 		}
+	
+	public function sendemail() {
+		
+		$this->load->model('my_user');
+		$this->load->helper('form');
+		$this -> load -> library('form_validation');
+
+		if (isset($_COOKIE['login']) && $this->My_admin->verifcookie($_COOKIE['login'])) {
+
+		
+		$this -> load -> library('email');
+		
+		$this -> email -> initialize($config);
+		$this->email->from('patuf@gmail.com', 'PATUF');
+		$this->email->to('$array');
+	}
 
 
 
