@@ -74,6 +74,23 @@
 				$this->load->view('pages/PageConnexion');
 				}
 			}
+		
+	public function deleteadmin() {
+
+		$this->load->model('my_user');
+		$this->load->helper('form');
+		$this -> load -> library('form_validation');
+
+		if (isset($_COOKIE['login']) && $this->My_admin->verifcookie($_COOKIE['login'])) {
+
+		$id=$_POST['pseudoadmin'];
+		
+		$this->my_user->delete($id);
+		}
+		else{
+			$this->load->view('pages/PageConnexion');
+			}
+		}
 			
 			
 
