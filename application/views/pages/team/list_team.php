@@ -7,7 +7,7 @@
                       <div class="col-md-12">
                           <div class="box">
                               <strong>Liste des Equipes</strong>
-                          
+                           <div class="table-responsive">
                             <table class="table table-striped">
                             <thead>
                                  <tr>
@@ -31,6 +31,7 @@
                                   <?php } ?>
                                 </tbody>
                               </table>
+					</table>
                             </div>
                           </div>
                         </div>
