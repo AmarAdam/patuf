@@ -22,31 +22,39 @@
 
     <div id="wrapper">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+              
+                </li>
+                <li>
                     <a href="<?php echo site_url()?>/">Accueil</a>
-  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    			<span class="navbar-toggler-icon"></span>
-  			</button>
-  		<div class="collapse navbar-collapse" id="navbarNav">
-    			<ul class="navbar-nav">
-      		<li class="nav-item active">
+                </li>
+                <li>
                     <a href="<?php echo site_url()?>/VisiteursCtrl/listuser">Liste des Joueurs</a>
-      		</li>
-      		<li class="nav-item">
+                </li>
+                
+                <li>
                     <a href="<?php echo site_url()?>/VisiteursCtrl/listteam">Liste des Equipes</a>
-      		</li>
-      		<li class="nav-item">
+                </li>
+            
+                <li>
                     <a href="<?php echo site_url()?>/VisiteursCtrl/listfield">Liste des Terrains</a>
-      		</li>
-      		<li class="nav-item">
+                </li>
+                
+                <li>
+                    <a href="<?php echo site_url()?>/VisiteursCtrl/listtype">Liste des Types d'Equipe</a>
+                </li>
+                
+                <li>
                     <a href="<?php echo site_url()?>/VisiteursCtrl/listmatch">Liste des Matchs</a>
-      		</li>
-		<li>
+                </li>
+                <li>
                     <a href="<?php echo base_url()?>/ContactCtrl/contact">Contact</a>
                 </li>
-    	</ul>
-  </div>
-</nav>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
