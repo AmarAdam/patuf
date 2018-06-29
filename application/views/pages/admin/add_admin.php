@@ -49,10 +49,9 @@
                     <div class="form-group">
                         <label class="control-label">Pseudo de l'Admin</label>
                         <input type="text" class="form-control" name="pseudoadmin" value="<?php echo set_value('pseudoadmin'); ?>" size="30" required/> 
-                            <h6 style="color:red;"</h6>
-					</div>
+			</div>
                     
-                    <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Supression " /></div>
+                    <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Suppression " /></div>
                     <div class="text-center">
                         <br>
                     </div>
