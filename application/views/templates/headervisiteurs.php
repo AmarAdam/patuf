@@ -50,6 +50,9 @@
                 <li>
                     <a href="<?php echo site_url()?>/VisiteursCtrl/listmatch">Liste des Matchs</a>
                 </li>
+				<li>
+                    <a href="<?php echo base_url()?>/ContactCtrl/contact">Contact</a>
+                </li>
                
                 
                 <li>
