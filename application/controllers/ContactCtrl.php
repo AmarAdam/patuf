@@ -7,7 +7,7 @@
 		public function contact(){
 
 			$this->load->view('templates/header');
-			$this->load->view('pages/Contact');
+			$this->load->view('pages/contact');
 			$this->load->view('templates/footer');
 
 		}
