@@ -18,7 +18,7 @@
                     
                     <div class="form-group">
                         <label class="control-label">Password de l'Admin</label>
-                        <input type="text" class="form-control" name="passwordadmin" value="<?php echo set_value('passwordadmin'); ?>" size="30" required/>
+                        <input type="password" class="form-control" name="passwordadmin" value="<?php echo set_value('passwordadmin'); ?>" size="30" required/>
                     </div>
                     
                     <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Inscription " /></div>
