@@ -8,7 +8,7 @@
                       <div class="col-md-12 col-md-offset-2">
                           <div class="box">
                               <strong>Liste des Matchs</strong>
-                          
+                           <div class="table-responsive">
                             <table class="table table-striped">
                             <thead>
                                 <tr>
@@ -33,6 +33,7 @@
                                   <?php } ?>
                                 </tbody>
                               </table>
+														</div>
                             </div>
                           </div>
                           </div>
