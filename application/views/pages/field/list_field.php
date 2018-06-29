@@ -6,7 +6,7 @@
                       <div class="col-md-12">
                           <div class="box">
                               <strong>Liste des Terrains</strong>
-                          
+                           <div class="table-responsive">
                             <table class="table table-striped">
                             <thead>
                                 <tr>
@@ -26,6 +26,7 @@
                                   <?php } ?>
                                 </tbody>
                               </table>
+	                </div>	
                             </div>
                           </div>
                           </div>
