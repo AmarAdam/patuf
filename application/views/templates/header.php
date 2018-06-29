@@ -64,7 +64,9 @@
                 <li>
                     <a href="<?php echo base_url()?>/ConnexionCtrl/addadmin">Ajouter un Admin</a>
                 </li>
-                
+                <li>
+                    <a href="<?php echo base_url()?>/DeconnexionCtrl/deconnexion">Déconnexion</a>
+                </li>
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
