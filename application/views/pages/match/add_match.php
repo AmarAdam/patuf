@@ -28,7 +28,7 @@
                  
                     <div class="form-group">
                         <label class="control-label">Date du Match</label>
-                        <input type="date" class="form-control" name="datematch" min="2018-06-2018" value="<?php echo set_value('datematch'); ?>" size="30" required/> 
+                        <input type="date" class="form-control" name="datematch" min="2018-06-29" value="<?php echo set_value('datematch'); ?>" size="30" required/> 
                     </div>
                  
                     <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Création d'un Match " /></div>
