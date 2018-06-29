@@ -19,7 +19,16 @@
 </head>
 
 <body>
-
+	
+	<div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1 class="text-align-center">PATUF !</h1>
+                <p>Bienvenue sur le site web Prêt à Taper un Foot !</p>
+                <p><code></code></p>
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Menu</a>
+            </div>
+        </div>	
+	
     <div id="wrapper">
 
         <!-- Sidebar -->
@@ -62,7 +71,7 @@
                     <a href="<?php echo base_url()?>/MatchCtrl/addmatch">Créer un Match</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>/ConnexionCtrl/addadmin">Ajouter un Admin</a>
+                    <a href="<?php echo base_url()?>/ConnexionCtrl/addadmin">Ajouter/Supprimer des Admin</a>
                 </li>
                 <li>
                     <a href="<?php echo base_url()?>/DeconnexionCtrl/deconnexion">Déconnexion</a>
@@ -75,14 +84,7 @@
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <h1 class="text-align-center">PATUF !</h1>
-                <p>Bienvenue sur le site web Prêt à Taper un Foot !</p>
-                <p><code></code></p>
-                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Menu</a>
-            </div>
-        </div>
+        
         <!-- /#page-content-wrapper -->
 	    
 	 </div>
