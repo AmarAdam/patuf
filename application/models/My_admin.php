@@ -57,6 +57,14 @@
             return false;
         }
     }
+		
+		
+	 public function delete($id){
+            $this->load->database();
+            return $this->db->where('pseudoadmin',$id)
+            ->delete($this->table);
+        }
+
 
 
 
