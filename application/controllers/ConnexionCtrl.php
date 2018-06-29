@@ -85,7 +85,7 @@
 
 		$id=$_POST['pseudoadmin'];
 		
-		$this->my_user->delete($id);
+		$this->my_admin->delete($id);
 		}
 		else{
 			$this->load->view('pages/PageConnexion');
