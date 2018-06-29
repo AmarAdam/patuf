@@ -57,14 +57,7 @@
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <h1>PATUF !</h1>
-                <p>Bienvenue sur le site web Prêt à Taper un Foot !</p>
-                <p><code></code></p>
-                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Menu</a>
-            </div>
-        </div>
+      
         <!-- /#page-content-wrapper -->
 
     </div>
