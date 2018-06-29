@@ -77,7 +77,7 @@
 		
 	public function deleteadmin() {
 
-		$this->load->model('my_user');
+		$this->load->model('my_admin');
 		$this->load->helper('form');
 		$this -> load -> library('form_validation');
 
