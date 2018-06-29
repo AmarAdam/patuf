@@ -50,7 +50,7 @@
                             <h6 style="color:red;"</h6>
                     </div>
                     
-                    <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Inscription " /></div>
+                    <div class="text-center"><input class="btn btn-primary btn-success btn-block" type="submit" value=" Supression" /></div>
                     <div class="text-center">
                         <br>
                         <h1 style="color:darkslategrey; " >  </h1>
