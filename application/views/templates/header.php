@@ -67,7 +67,7 @@
                 <li>
                     <a href="<?php echo base_url()?>/DeconnexionCtrl/deconnexion">Déconnexion</a>
                 </li>
-				<li>
+		<li>
                     <a href="<?php echo base_url()?>/ContactCtrl/contact">Contact</a>
                 </li>
             </ul>
